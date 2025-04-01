@@ -1,10 +1,10 @@
-"use client";
-import axios from "axios";
-import { useFormik } from "formik";
-import { useRouter } from "next/navigation";
-import React from "react";
-import toast from "react-hot-toast";
-import * as Yup from "yup";
+'use client'
+import axios from 'axios'
+import { useFormik } from 'formik'
+import { useRouter } from 'next/navigation'
+import React from 'react'
+import toast from 'react-hot-toast'
+import * as Yup from 'yup'
 
 const SignupSchema = Yup.object().shape({
   name: Yup.string()
